@@ -1,0 +1,48 @@
+.daily-section{
+  margin: 30px 0;
+  .inner{
+    position: relative;
+    overflow: hidden;
+    overflow-x: scroll;
+    width: 95%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(#000,0.2);
+    color: #fff;
+    .daily-container{
+      position: relative;
+      display: inline-flex;
+      ul{
+        display: inline-flex;
+        li{
+          width: 80px;
+          box-sizing: border-box;
+          text-align: center;
+          border-right: 1px dotted #fff;
+          &:last-child{
+            border-right: none;
+          }
+          b{
+            display: block;
+            margin: 7px 0;
+            font-size: 0.8em;
+            i{
+              margin-right: 5px;
+            }
+            sup{
+              vertical-align: bottom;
+              margin-left: 1px;
+            }
+          }//b
+          img{
+            margin: 5px auto;
+            width: 40px;
+            border-radius: 50%;
+          }//img
+        }//li
+      }//ul
+    }//daily-container
+  }//inner
+}//daily-section
